@@ -1,0 +1,58 @@
+body {
+    margin: 20px;
+    padding: 0;
+    background: black;
+}
+
+.container {
+    max-width: 60vw;
+    margin: auto;
+    /* border: #fff solid 3px; */
+    background: black;
+}
+
+.main-img img,
+.imgs img {
+    width: 100%;
+}
+
+/* .imgs {
+    display: flex;
+    justify-content: space-between;
+} */
+
+.imgs img{
+    width: 20%;
+    height: 100%;
+    margin: 5px 5px 5px 5px;
+    opacity: .8;
+}
+
+.imgs img:hover {
+    opacity: 1;
+}
+
+.row1 {
+    display: flex;
+    justify-content: center;
+}
+
+.row2 {
+    display: flex;
+    justify-content: center;
+}
+
+/* #current {
+    border-bottom: #fff 3px solid;
+} */
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    opacity: 0.5;
+    animation: fadeIn 0.4s ease-in 1 forwards;
+}
